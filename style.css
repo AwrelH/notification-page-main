@@ -1,6 +1,116 @@
+@font-face {
+    font-family: 'PlusJakartaSans-extb';
+    src: url(assets/fonts/static/PlusJakartaSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'PlusJakartaSans-med';
+    src: url(assets/fonts/static/PlusJakartaSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'PlusJakartaSans-wght';
+    src: url(assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
 
+.container:nth-of-type(1) {
+    margin-top: 60px;
+}
 
 
 body {
     background-color: hsl(210, 60%, 98%);
+}
+
+.notif {
+   
+    margin: 5px 25px;
+    padding:16px
+
+}
+.user, .title {
+    font-family:'PlusJakartaSans-extb' ;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.action {
+    font-family: 'PlusJakartaSans-med';
+    color: hsl(219, 14%, 63%);
+    
+
+}
+.object {
+    font-family: 'PlusJakartaSans-med';
+    color: hsl(219, 12%, 42%);
+}
+
+.when {
+    font-family: 'PlusJakartaSans-med';
+
+}
+
+.seen {
+    background-color: white;
+}
+
+.not-seen {
+    background-color: hsl(210, 60%, 98%);
+}
+
+.profilelink, .read {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.profile-pic {
+    width: 71px;
+    height: 71px;
+    margin-right: 20px;
+}
+.activity {
+    
+}
+.group {
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+    font-weight: 600;
+}
+
+.new-notif {
+padding: 3px 10px 3px 10px;
+background-color: hsl(224.3, 51.9%, 31.8%);
+color: white;
+border-radius: 10px;
+font-size: 1rem;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+transform: translateY(-5px);
+margin-left: 10px;
+}
+
+.mark-read {
+    border: none;
+    font-family: 'PlusJakartaSans-med';
+    background-color: white
+    ;
+}
+
+.new {
+    display: inline-flex;
+    font-size: 10px;
+    color: #f04a4a;
+    transform: translateY(-2px);
+}
+
+.read {
+    font-family: 'PlusJakartaSans-med';
+    color: hsl(219, 14%, 63%);
+}
+
+.card{
+    padding: 0 20px;
 }
